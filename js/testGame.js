@@ -15,7 +15,7 @@ var connectedSessions = {};
 var keysDown = {};
 
 //Creating the socket to communitate with the server // {ip}:{port}
-var socket = new WebSocket("ws://{ip}:{port}/ServerWebSocketTest/hello");
+var socket = new WebSocket("ws://{ip}:{port}/ServerWebSocket/hello");
 
 createPlayerImage = function(){
 	
